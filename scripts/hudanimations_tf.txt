@@ -223,7 +223,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue		FgColor		"White_Custom"	Accel 0.0 0.025
+	Animate PlayerStatusHealthValue		FgColor		"White_Custom"	Linear 0.0 0.0
 }
 
 //===========================================
