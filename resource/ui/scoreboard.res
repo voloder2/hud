@@ -380,8 +380,8 @@
 		"tall"			"292"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
@@ -828,10 +828,10 @@
 			"fgcolor"		"White_Custom"
 			"labelText"		":"
 			"textAlignment"	"center"
-			"xpos"			"c-20"
+			"xpos"			"c-12"
 			"ypos"			"52"
 			"zpos"			"3"
-			"wide"			"35"
+			"wide"			"27"
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
@@ -879,10 +879,10 @@
 			"font"			"RobotoBold36"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%kills%"
-			"textAlignment"		"west"
-			"xpos"			"c-21"
+			"textAlignment"		"east"
+			"xpos"			"c-102"
 			"ypos"			"58"
-			"zpos"			"3"
+			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"25"
 			"autoResize"	"0"
@@ -898,9 +898,9 @@
 			"fgcolor"		"White_Custom"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"c0"
+			"xpos"			"c6"
 			"ypos"			"58"
-			"zpos"			"3"
+			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"25"
 			"autoResize"	"0"
@@ -985,12 +985,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"RobotoCondensed12"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"
-			"ypos"			"0"
+			"xpos"			"c-341"
+			"ypos"			"60"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1003,12 +1003,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"c-340"
+			"ypos"			"70"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1021,12 +1021,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"c-211"
+			"ypos"			"60"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1039,12 +1039,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"c-220"
+			"ypos"			"70"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1057,12 +1057,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"xpos"			"c-221"
+			"ypos"			"60"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1075,12 +1075,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"c-221"
+			"ypos"			"70"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1093,12 +1093,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"c-92"
+			"ypos"			"60"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1111,12 +1111,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"c-92"
+			"ypos"			"70"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1129,14 +1129,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"c157"
+			"ypos"			"60"
 			"zpos"			"3"
-			"wide"			"95"	[$WIN32]
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1147,12 +1147,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"xpos"			"c155"
+			"ypos"			"70"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1165,14 +1165,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"c35"
+			"ypos"			"70"
 			"zpos"			"3"
-			"wide"			"95"	[$WIN32]
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1183,14 +1183,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"c40"
+			"ypos"			"60"
 			"zpos"			"3"
-			"wide"			"95"	[$WIN32]
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1201,12 +1201,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"c270"
+			"ypos"			"60"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1219,12 +1219,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%invulns%"
-			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"textAlignment"	"west"
+			"xpos"			"c270"
+			"ypos"			"70"	
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1237,12 +1237,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"c153"
+			"ypos"			"70"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1255,12 +1255,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"c153"
+			"ypos"			"60"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1273,12 +1273,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"north-east"
-			"xpos"			"445"	[$WIN32]
-			"ypos"			"5"	[$WIN32]
+			"xpos"			"c266"
+			"ypos"			"64"
 			"zpos"			"3"
 			"wide"			"110"
 			"autoResize"	"0"
@@ -1290,12 +1290,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%backstabs%"
-			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"560"	[$WIN32]
-			"ypos"			"5"	[$WIN32]
+			"textAlignment"		"north-west"
+			"xpos"			"c394"
+			"ypos"			"64"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1308,12 +1308,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoCondensedRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"north-east"
-			"xpos"			"445"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"xpos"			"c252"
+			"ypos"			"74"
 			"zpos"			"3"
 			"zpos"			"3"
 			"wide"			"110"
@@ -1326,12 +1326,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"ScoreboardVerySmall"
+			"font"			"RobotoRegular12"
 			"fgcolor"		"White_Custom"
 			"labelText"		"%bonus%"
-			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"560"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"textAlignment"		"north-west"
+			"xpos"			"c394"
+			"ypos"			"74"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
