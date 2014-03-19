@@ -19,16 +19,17 @@ Scheme
 	Colors
 	{
 		//custom colors
-		"White_Custom"			"255 255 255 255"
-		"Black_Custom"			"0 0 0 255"
-		"RedTeam_Custom"		"131 45 48 255"
-		"BlueTeam_Custom"		"66 96 120 255"	
-		"OverhealGreen_Custom"	"91 240 131 255"
-		"OverhealGreen_Custom2"	"91 157 109 255"
-		"OverhealGreen_Custom3"	"144 255 131 255"	
-		"LowHealthRed_Custom"	"121 8 15 255"
-		"LowHealthRed_Custom2"	"113 42 50 255"
-		"Grey_Custom"			"123 122 122 255"
+		"White_Custom"				"255 255 255 255"
+		"Black_Custom"				"0 0 0 255"
+		"RedTeam_Custom"			"131 45 48 255"
+		"BlueTeam_Custom"			"66 96 120 255"	
+		"OverhealGreen_Custom"		"91 240 131 255"
+		"OverhealGreen_Custom2"		"91 157 109 255"
+		"OverhealGreen_Custom3"		"144 255 131 255"	
+		"LowHealthRed_Custom"		"121 8 15 255"
+		"LowHealthRed_Custom2"		"113 42 50 255"
+		"LowHealthYellow_Custom"	"255 200 0 255"
+		"Grey_Custom"				"123 122 122 255"
 		
 		
 		// base colors
