@@ -21,29 +21,30 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"30"
-		"ypos"			"24"
+		"xpos"			"c-143"
+		"ypos"			"5"
 		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"15"
+		"wide"			"105"
+		"tall"			"60"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"RobotoBlack56"
+		"fgcolor"		"White_Custom"
 	}
 
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"30"
-		"ypos"			"24"
+		"xpos"			"c-223"
+		"ypos"			"30"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"15"
@@ -56,7 +57,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"RobotoCondensedBold12"
+		"fgcolor"		"White_Custom"		
 	}
 	
 	"ChargeMeter"
@@ -64,8 +66,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"30"
-		"ypos"			"38"
+		"xpos"			"c-263"
+		"ypos"			"42"
 		"zpos"			"2"
 		"wide"			"86"
 		"tall"			"8"				
@@ -76,6 +78,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"0 0 0 70"		
+		"fgcolor_override"	"White_Custom"
 	}		
 
 	"ChargeMeter1"
@@ -95,6 +99,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"0 0 0 70"		
+		"fgcolor_override"	"White_Custom"
 	}
 
 	"ChargeMeter2"
@@ -114,6 +120,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"0 0 0 70"		
+		"fgcolor_override"	"White_Custom"
 	}
 
 	"ChargeMeter3"
@@ -133,6 +141,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"0 0 0 70"		
+		"fgcolor_override"	"White_Custom"
 	}
 
 	"ChargeMeter4"
@@ -152,6 +162,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"0 0 0 70"		
+		"fgcolor_override"	"White_Custom"
 	}
 	
 	"HealthClusterIcon"

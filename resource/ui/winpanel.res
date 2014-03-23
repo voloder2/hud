@@ -315,7 +315,7 @@
 		"fieldName"		"DetailsLabel"
 		"font"			"RobotoCondensedBold10"
 		"fgcolor"		"White_Custom"
-		"xpos"			"c-137"
+		"xpos"			"c-136"
 		"ypos"			"174"
 		"zpos"			"1"
 		"wide"			"268"
