@@ -14,10 +14,10 @@
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"OverhealGreen_Custom"
+		"NegativeColor"			"LowHealthRed_Custom"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"RobotoCondensedBold12"
 		
 		"TimePanelValue"
 		{
@@ -51,10 +51,10 @@
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"OverhealGreen_Custom"
+		"NegativeColor"			"LowHealthRed_Custom"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"RobotoCondensedBold12"
 		
 		"TimePanelValue"
 		{

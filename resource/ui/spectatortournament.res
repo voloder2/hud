@@ -38,14 +38,13 @@
 				"xpos"			"47"
 				"ypos"			"5"
 				"zpos"			"5"
-				"wide"			"50"
+				"wide"			"100"
 				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
 					
 				if_mvm
 				{
@@ -57,13 +56,41 @@
 				}
 			}
 			
+			PlayerPanelsBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"PlayerPanelsBG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"125"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"0 0 0 255"
+			}
+		
+			"BlackFilter"
+			{	
+				"ControlName"	"ImagePanel"
+				"fieldName"		"BlackFilter"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"125"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"0 0 0 100"
+			}			
+		
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"2"
 				"ypos"			"2"
-				"zpos"			"2"
+				"zpos"			"3"
 				"wide"			"22"
 				"tall"			"22"
 				"visible"		"1"
@@ -83,22 +110,16 @@
 			
 			"classimagebg"
 			{
-				"ControlName"		"Panel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"bgcolor_override"		"Black_Custom"
-				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
+				"wide"			"22"
+				"tall"			"22"
+				"visible"		"1"
+				"enabled"		"1"
+				"bgcolor_override"		"190 190 190 255"
 			}
 			
 			"HealthIcon"
@@ -174,11 +195,11 @@
 				"fieldName"		"respawntime"
 				"font"			"RobotoCondensedBold12"
 				"fgcolor"		"White_Custom"
-				"xpos"			"30"
-				"ypos"			"18"
+				"xpos"			"105"
+				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"23"
-				"tall"			"10"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -197,9 +218,8 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"RobotoCondensedBold12"
-				"fgcolor"		"White_Custom"
-				"xpos"			"25"
-				"ypos"			"17"
+				"xpos"			"100"
+				"ypos"			"5"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
@@ -208,7 +228,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"fgcolor"		"255 255 150 255"
 			}
 			
 			"specindex"
@@ -219,21 +239,22 @@
 				"xpos"			"4"
 				"ypos"			"2"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
-			}
+			}			
 			
 			if_mvm
 			{
 				"wide"		"55"
 				"tall"		"35"
-			}
+			}			
+			
 		}
 		
 		if_mvm
@@ -244,7 +265,7 @@
 			"tall"					"180"
 	
 			"team1_player_delta_x"			"52"
-		}		
+		}
 	}
 
 	"topbar"
@@ -275,8 +296,8 @@
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
 		"ypos"			"32"
-		"wide"			"300"
-		"tall"			"18"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -375,8 +396,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
