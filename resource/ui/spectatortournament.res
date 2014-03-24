@@ -56,39 +56,27 @@
 				}
 			}
 			
-			PlayerPanelsBG"
+			"MainPanelBG"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"PlayerPanelsBG"
+				"fieldName"		"MainPanelBG"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"-1"
+				"zpos"			"-10"
 				"wide"			"125"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"0 0 0 255"
-			}
-		
-			"BlackFilter"
-			{	
-				"ControlName"	"ImagePanel"
-				"fieldName"		"BlackFilter"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"125"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
+				"autoResize"	"0"
+				"pinCorner"		"0"
 				"fillcolor"		"0 0 0 100"
-			}			
-		
+			}
+			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"2"
+				"xpos"			"0"
 				"ypos"			"2"
 				"zpos"			"3"
 				"wide"			"22"
