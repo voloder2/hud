@@ -11,7 +11,7 @@
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"-401"
-		"team1_player_base_y"				"175"
+		"team1_player_base_y"				"97"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"20"
 		"team2_player_base_offset_x"		"-401"
@@ -54,24 +54,8 @@
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
 				}
-			}
-			
-			"MainPanelBG"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"MainPanelBG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-10"
-				"wide"			"125"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"fillcolor"		"0 0 0 100"
-			}
-			
+			}			
+		
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -245,6 +229,62 @@
 			
 		}
 		
+		"BluePlayerPanelsBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerPanelsBG"
+			"xpos"			"c-401"
+			"ypos"			"97"
+			"zpos"			"-1"
+			"wide"			"125"
+			"tall"			"120"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 255"
+		}
+	
+		"BlueBlackFilter"
+		{	
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlueBlackFilter"
+			"xpos"			"c-401"
+			"ypos"			"97"
+			"zpos"			"4"
+			"wide"			"125"
+			"tall"			"120"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 40"
+		}			
+		
+		"RedPlayerPanelsBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerPanelsBG"
+			"xpos"			"c-401"
+			"ypos"			"263"
+			"zpos"			"-1"
+			"wide"			"125"
+			"tall"			"120"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 255"
+		}
+	
+		"RedBlackFilter"
+		{	
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlackFilter"
+			"xpos"			"c-401"
+			"ypos"			"263"
+			"zpos"			"4"
+			"wide"			"125"
+			"tall"			"120"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 40"
+		}		
+	
 		if_mvm
 		{
 			"xpos"					"c-250"
