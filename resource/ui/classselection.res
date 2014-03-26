@@ -1090,7 +1090,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"178"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1101,7 +1101,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}	
@@ -1110,7 +1110,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"198"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1121,7 +1121,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}		
@@ -1130,7 +1130,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"218"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1141,7 +1141,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}			
@@ -1150,7 +1150,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"238"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1161,7 +1161,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}				
@@ -1170,7 +1170,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"258"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1181,7 +1181,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}					
@@ -1190,7 +1190,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"278"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1201,7 +1201,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}						
@@ -1210,7 +1210,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"298"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1221,7 +1221,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}							
@@ -1230,7 +1230,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"318"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1241,7 +1241,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}						
@@ -1250,7 +1250,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c-65"
+		"xpos"			"c-85"
 		"ypos"			"338"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1261,7 +1261,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"font"			"RobotoBold24"
 		"fgcolor"		"White_Custom"
 	}								

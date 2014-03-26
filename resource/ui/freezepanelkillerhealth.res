@@ -69,6 +69,6 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"west"	
 	}								
 }
