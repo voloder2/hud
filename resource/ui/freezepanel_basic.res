@@ -197,7 +197,6 @@
 		"tall"			"0"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
 		
 		"model_xpos"		"9999"
 		"model_center_y"	"1"
