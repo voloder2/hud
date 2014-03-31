@@ -38,7 +38,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c28"
+		"xpos"					"c20"
 		"ypos"					"385"
 		"zpos"					"2"
 		"wide"					"41"
@@ -61,7 +61,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"c5"
+		"xpos"					"c-3"
 		"ypos"					"389"
 		"zpos"					"2"
 		"wide"					"86"

@@ -21,7 +21,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"c-13"
+		"xpos"					"c-20"
 		"ypos"					"395"
 		"zpos"					"2"
 		"wide"					"41"
@@ -44,7 +44,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"c-35"
+		"xpos"					"c-42"
 		"ypos"					"399"
 		"zpos"					"2"
 		"wide"					"86"
@@ -94,7 +94,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"c5"
+			"xpos"			"c-5"
 			"ypos"			"383"
 			"zpos"			"2"
 			"wide"			"35"
