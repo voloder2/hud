@@ -65,7 +65,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}
+		}		
 
 		"SimplifiedOptionsContainer"
 		{
@@ -771,7 +771,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"OptionsButton"
-			"xpos"			"10"
+			"xpos"			"12"
 			"ypos"			"345"
 			"zpos"			"1"
 			"wide"			"25"
@@ -833,7 +833,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CancelButton"
-			"xpos"			"290"
+			"xpos"			"289"
 			"ypos"			"345"
 			"zpos"			"20"
 			"wide"			"100"

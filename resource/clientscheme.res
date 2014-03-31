@@ -2414,6 +2414,17 @@ Scheme
 		//
 		// all custom font definitions for VoloHUD
 		
+		"Shapes"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"64"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
+		
 		RobotoBlack8
 		{
 			"1"
@@ -6388,6 +6399,10 @@ Scheme
 		{
 			"font"	"resource/fonts/Roboto-ThinItalic.ttf"
 			"name"	"Roboto Thin Italic"
+		}
+		"25"
+		{	"font"	"resource/fonts/Blocks.ttf"
+			"name"	"Blocks"
 		}
 	}
 }

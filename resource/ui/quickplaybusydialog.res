@@ -63,9 +63,27 @@
 			"tall"			"36"
 			"autoResize"	"1"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		
+		"CustomTitleLabel"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"CustomTitleLabel"
+			"font"			"RobotoBlack36"
+			"labelText"		"Searching for servers"
+			"textAlignment"	"center"
+			"xpos"			"c-340"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"320"
+			"tall"			"36"
+			"autoResize"	"1"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}
+		}		
 
 		"Progress"
 		{

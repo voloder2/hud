@@ -201,6 +201,30 @@
 				}
 			}
 			
+			"Blocks"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Blocks"
+				"font"			"Shapes"
+				"fgcolor"		"Black_Custom"
+				"xpos"			"22"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"21"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				//"fgcolor"		"235 226 202 255"
+				
+				if_mvm
+				{
+					"ypos"			"17"
+				}
+			}			
+			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
