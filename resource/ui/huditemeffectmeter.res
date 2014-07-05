@@ -23,7 +23,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
